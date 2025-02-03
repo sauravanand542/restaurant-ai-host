@@ -19,9 +19,10 @@ All powered by **FastAPI**, **OpenAI (GPT-3.5)**, and **Twilio** for voice inter
 2. [Architecture](#architecture)  
 3. [Demo Flow](#demo-flow)  
 4. [Installation & Setup](#installation--setup)  
-5. [Usage](#usage)   
-6. [Project Structure](#project-structure)  
-7. [License](#license)
+5. [Usage](#usage)  
+6. [Screenshots](#screenshots)  
+7. [Project Structure](#project-structure)  
+8. [License](#license)
 
 ---
 
@@ -109,3 +110,22 @@ flowchart LR
 4. **Finish**: For a reservation, you receive an SMS confirmation; for an order, you see “OWNER NOTIFICATION” in the server logs.
 
 
+## Project Structure
+
+```bash
+restaurant-ai-host/
+├── main.py               # Main FastAPI code
+├── requirements.txt      # Dependencies
+├── conversation_logs.txt # Logs of user-AI interactions
+├── .env.example          # Sample environment variables
+└── README.md             # This file
+```
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+
+## Contact
+
+For any inquiries or feedback, please contact [Saurav Anand](https://github.com/sauravanand542).
