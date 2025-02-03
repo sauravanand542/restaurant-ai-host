@@ -19,10 +19,9 @@ All powered by **FastAPI**, **OpenAI (GPT-3.5)**, and **Twilio** for voice inter
 2. [Architecture](#architecture)  
 3. [Demo Flow](#demo-flow)  
 4. [Installation & Setup](#installation--setup)  
-5. [Usage](#usage)  
-6. [Screenshots](#screenshots)  
-7. [Project Structure](#project-structure)  
-8. [License](#license)
+5. [Usage](#usage)   
+6. [Project Structure](#project-structure)  
+7. [License](#license)
 
 ---
 
@@ -82,3 +81,31 @@ flowchart LR
 	source venv/bin/activate  # or venv\Scripts\activate on Windows
 	pip install -r requirements.txt
 	```
+	
+3. **Create** environment variables
+	```bash
+	OPENAI_API_KEY=sk-...
+	TWILIO_ACCOUNT_SID=AC...
+	TWILIO_AUTH_TOKEN=...
+	TWILIO_PHONE_NUMBER=+1234567890
+	PORT=YourPort
+	```
+4. **Expose with Ngrok** so Twilio can reach
+	```bash
+	ngrok http yourPort
+	```
+	
+5. **Configure Twillo Webhook** 
+	In the Twilio console, set the Voice webhook to:
+	```bash
+	https://<your-ngrok-url>/incoming-call
+	```
+
+## Usage
+
+1. **Call** your Twilio number.
+2. **Speak** a request: “I’d like to order,” or “I want to reserve a table.”
+3. **Follow** Sofia’s prompts to confirm seat availability or add menu items.
+4. **Finish**: For a reservation, you receive an SMS confirmation; for an order, you see “OWNER NOTIFICATION” in the server logs.
+
+
