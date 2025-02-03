@@ -22,7 +22,6 @@ All powered by **FastAPI**, **OpenAI (GPT-3.5)**, and **Twilio** for voice inter
 5. [Usage](#usage)  
 6. [Screenshots](#screenshots)  
 7. [Project Structure](#project-structure)  
-8. [License](#license)
 
 ---
 
@@ -121,10 +120,6 @@ restaurant-ai-host/
 └── README.md             # This file
 ```
 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Contact
 
