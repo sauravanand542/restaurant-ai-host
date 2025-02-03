@@ -1,8 +1,7 @@
 # Restaurant AI Host: Sofia
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/d6eba528-b89f-4e98-ad20-c7aadb117235)
-" alt="Sofia the AI Hostess Banner" width="600" height="300" />
+  <img src="sofia_ai_host" alt="Sofia the AI Hostess Banner" width="600" height="300" />
 </p>
 
 **Sofia** is an AI-powered restaurant hostess that can:
