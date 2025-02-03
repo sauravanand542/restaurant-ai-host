@@ -14,3 +14,7 @@ An intelligent AI agent for restaurant management using modern NLP and conversat
 - Reservation management
 - Menu inquiries
 - SMS confirmations
+
+Contact
+For any inquiries or feedback, please contact Saurav Anand.
+
